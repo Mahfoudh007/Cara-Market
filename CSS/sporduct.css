@@ -1,0 +1,133 @@
+/* Call to Action */
+
+#banner8 {
+  background: url(../img/about/banner.png) center/cover;
+  text-align: center;
+}
+
+#banner8 h4 {
+  color: #fff;
+  font-size: 30px;
+  margin: 40px 0;
+}
+
+#banner8 p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 40px 0;
+  margin-top: 20px;
+}
+
+/* buy table  */
+
+.buy-table {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.buy-table tr th {
+  border-bottom: 1px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 20px 0;
+}
+
+.buy-table td {
+  padding: 20px;
+  color: #999;
+  font-weight: 600;
+}
+
+.buy-table img {
+  width: 100px;
+}
+
+.buy-table i {
+  font-size: 20px;
+  color: red;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.buy-table i:hover {
+  transform: scale(1.1);
+}
+
+/* Buy Information */
+
+.info-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.info-container .coupon {
+  width: 40%;
+}
+
+.info-container .coupon h4 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.info-container .coupon .input-coupon input {
+  height: 47px;
+  width: 70%;
+  padding: 4px;
+  border-radius: 5px;
+  outline: none;
+  border: #999 solid 1px;
+  font-size: 15px;
+}
+
+.info-container .coupon .input-coupon input:focus {
+  border-color: var(--primary-color);
+}
+
+.info-container .coupon .input-coupon button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.info-container .coupon .input-coupon button:hover {
+  transform: scale(1.05);
+}
+
+.info-container .cart {
+  width: 40%;
+  padding: 30px;
+  border: 1px solid #dddddd;
+}
+
+.info-container .cart h4 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.info-container .cart .cart-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.info-container .cart .cart-table td,
+.info-container .cart .cart-table th {
+  border: #dddddd solid 1px;
+  padding: 8px;
+}
+
+.info-container .cart .cart-table span {
+  text-decoration: line-through;
+}
+
+.info-container button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.info-container button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,35 @@
+#banner4 {
+    background: url(../img/banner/b1.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner4 h4 {
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#banner4 p {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*  Products  */
+
+#product1 .for-more {
+    padding: 10px 40px;
+    color: var(--primary-color);
+    font-size: 20px;
+    border: var(--primary-color) 1px solid;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#product1 .for-more:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}

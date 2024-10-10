@@ -1,0 +1,74 @@
+/* Call to Action */
+
+#banner6 {
+  background: url(../img/about/banner.png) center/cover;
+  text-align: center;
+}
+
+#banner6 h4 {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+#banner6 p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+/* about section 1  */
+
+.about-section {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  margin: 50px;
+  justify-content: center;
+}
+
+.about-section img {
+  width: 50vw;
+  padding-left: 20px;
+}
+
+.about-section .who-info {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.about-section .who-info h3 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.about-section .who-info p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #999;
+  margin-top: 30px;
+  width: 90%;
+}
+
+/* Download section 2 */
+
+.video-app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.video-app h1 {
+  margin: 40px 0;
+}
+
+.video-app h1 span {
+  color: var(--primary-color);
+}
+
+.video-app video {
+  border-radius: 20px;
+}
